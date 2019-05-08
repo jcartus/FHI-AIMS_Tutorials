@@ -1,0 +1,5 @@
+# Initial guess for planar H3O+
+atom  0.00   0.00   0.00   O
+atom  0.92  -0.53   0.00   H
+atom -0.92  -0.53   0.00   H
+atom  0.00   1.06   0.00   H

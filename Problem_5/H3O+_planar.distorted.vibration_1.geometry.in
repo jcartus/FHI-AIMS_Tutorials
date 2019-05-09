@@ -1,0 +1,8 @@
+#
+# distorted structure-file for based on eigenmodes
+# vibration     1 :  -615.027 1/cm
+#
+atom    0.00000000   -0.00002910   -0.10848074   O
+atom    0.85488761   -0.49352200    0.57384993   H
+atom   -0.85488761   -0.49352200    0.57384993   H
+atom    0.00000000    0.98707310    0.57412928   H

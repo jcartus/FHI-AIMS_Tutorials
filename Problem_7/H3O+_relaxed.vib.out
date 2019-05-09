@@ -1,0 +1,65 @@
+Central Point
+Processing atom: 1/4, coord.: 1/3, delta: -0.002
+Processing atom: 1/4, coord.: 1/3, delta: 0.002
+Processing atom: 1/4, coord.: 2/3, delta: -0.002
+Processing atom: 1/4, coord.: 2/3, delta: 0.002
+Processing atom: 1/4, coord.: 3/3, delta: -0.002
+Processing atom: 1/4, coord.: 3/3, delta: 0.002
+Processing atom: 2/4, coord.: 1/3, delta: -0.002
+Processing atom: 2/4, coord.: 1/3, delta: 0.002
+Processing atom: 2/4, coord.: 2/3, delta: -0.002
+Processing atom: 2/4, coord.: 2/3, delta: 0.002
+Processing atom: 2/4, coord.: 3/3, delta: -0.002
+Processing atom: 2/4, coord.: 3/3, delta: 0.002
+Processing atom: 3/4, coord.: 1/3, delta: -0.002
+Processing atom: 3/4, coord.: 1/3, delta: 0.002
+Processing atom: 3/4, coord.: 2/3, delta: -0.002
+Processing atom: 3/4, coord.: 2/3, delta: 0.002
+Processing atom: 3/4, coord.: 3/3, delta: -0.002
+Processing atom: 3/4, coord.: 3/3, delta: 0.002
+Processing atom: 4/4, coord.: 1/3, delta: -0.002
+Processing atom: 4/4, coord.: 1/3, delta: 0.002
+Processing atom: 4/4, coord.: 2/3, delta: -0.002
+Processing atom: 4/4, coord.: 2/3, delta: 0.002
+Processing atom: 4/4, coord.: 3/3, delta: -0.002
+Processing atom: 4/4, coord.: 3/3, delta: 0.002
+Entering hessian diagonalization
+Number of atoms                = 4
+Name of Hessian input file     = hessian.H3O+_relaxed.dat
+Name of grad dipole input file = grad_dipole.H3O+_relaxed.dat
+Name of Masses  input file     = masses.H3O+_relaxed.dat
+Name of XYZ output file        = H3O+_relaxed.xyz
+Threshold for Matrix elements  = -1
+     All matrix elements are taken into account by default
+
+Solving eigenvalue system for Hessian Matrix
+Done ... 
+Results
+
+List of all frequencies found:
+Mode number      Frequency [cm^(-1)]   Zero point energy [eV]   IR-intensity [D^2/Ang^2]
+          1              -7.67826225              -0.00047599               1.76500457
+          2              -7.59804928              -0.00047102               0.68186907
+          3              -0.00076715              -0.00000005               1.21276574
+          4               0.12037146               0.00000746               1.22180733
+          5               0.12661576               0.00000785               1.26183807
+          6               6.25537959               0.00038778               1.12311782
+          7             822.12412363               0.05096520              11.22416011
+          8            1613.79920950               0.10004280               2.68977709
+          9            1613.81012159               0.10004348               2.68893640
+         10            3505.38360520               0.21730609               1.08769345
+         11            3591.21968158               0.22262724              13.13613021
+         12            3591.25225956               0.22262926              13.13581458
+
+
+Summary of zero point energy for entire system:
+| Cumulative ZPE               =      0.91307011 eV
+| without first six eigenmodes =      0.91361407 eV
+
+Stability checking - eigenvalues should all be positive for a stable structure. 
+The six smallest frequencies should be (almost) zero:
+              -0.00047599              -0.00047102              -0.00000005               0.00000746               0.00000785               0.00038778
+Compare this with the largest eigenvalue, 
+            3591.25225956
+
+ Done. 

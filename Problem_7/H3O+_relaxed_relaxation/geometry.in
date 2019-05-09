@@ -1,0 +1,25 @@
+# 
+# This is the geometry file that corresponds to the current relaxation step.
+# If you do not want this file to be written, set the "write_restart_geometry" flag to .false.
+#  aims_uuid : 5CBA53E3-6CC5-4D2B-AAB0-BCE5174FA384                                
+# 
+atom       0.00000000      0.00001836      0.19077151 O
+atom       0.82425584     -0.47587261      0.47423563 H
+atom      -0.82425584     -0.47587261      0.47423563 H
+atom      -0.00000000      0.95172688      0.47446636 H
+# 
+# What follows is the current estimated Hessian matrix constructed by the BFGS algorithm.
+# This is NOT the true Hessian matrix of the system.
+# If you do not want this information here, switch it off using the "hessian_to_restart_geometry" keyword.
+# 
+trust_radius             0.1838581862
+hessian_block                1       1          36.935757           0.000000           0.000000           0.000000          44.145154           0.410072           0.000000           0.410072          16.406563
+hessian_block                1       2         -16.647768           7.230241         -10.620025           8.663153         -10.347774           5.871542         -13.936495           8.306623          -4.736316
+hessian_block                1       3         -16.647768          -7.230241          10.620025          -8.663153         -10.347774           5.871542          13.936495           8.306623          -4.736316
+hessian_block                1       4          -1.640221          -0.000000          -0.000000          -0.000000         -21.449607         -12.153156          -0.000000         -17.023318          -4.933932
+hessian_block                2       2          25.197100         -11.501189          11.829716         -11.501189          12.548128          -6.981937          11.829716          -6.981937          10.932620
+hessian_block                2       3          -6.559558           1.908798           1.452214          -1.908798           3.937868          -0.070600          -1.452214          -0.070600          -2.186411
+hessian_block                2       4           0.010225           0.929238           0.654565           6.179745          -4.138222          -1.254085           0.242523           1.180996          -2.009893
+hessian_block                3       3          25.197100          11.501189         -11.829716          11.501189          12.548128          -6.981937         -11.829716          -6.981937          10.932620
+hessian_block                3       4           0.010225          -0.929238          -0.654565          -6.179745          -4.138222          -1.254085          -0.242523           1.180996          -2.009893
+hessian_block                4       4           3.619771           0.000000           0.000000           0.000000          31.726051          14.661326           0.000000          14.661326          10.953718

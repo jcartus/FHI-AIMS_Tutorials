@@ -1,0 +1,8 @@
+#
+# temporary structure-file for finite-difference calculation of forces
+# displacement   0.0020 of \# atom     0 direction     1
+#
+atom    0.00000000    0.00201836    0.19077151   O
+atom    0.82425584   -0.47587261    0.47423563   H
+atom   -0.82425584   -0.47587261    0.47423563   H
+atom   -0.00000000    0.95172688    0.47446636   H

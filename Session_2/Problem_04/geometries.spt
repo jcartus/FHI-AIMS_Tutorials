@@ -1,0 +1,4 @@
+load geometries.zip 
+animation fps 1 
+animation mode loop 
+animation on 

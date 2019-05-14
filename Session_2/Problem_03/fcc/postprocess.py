@@ -9,7 +9,7 @@ aMax = 5.7
 # Sampling density in A (from run script)
 step = 0.1
 #Number of basis atoms
-atom_no = 2
+atom_no = 1
 
 # Number of calculations
 n = int(np.rint((aMax - aMin)/step)) + 1

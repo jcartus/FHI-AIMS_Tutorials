@@ -8,7 +8,7 @@ plt.style.use("seaborn")
 
 def fetch_data(folder):
     return np.loadtxt(
-        fname=os.path.join(folder, "energies.dat"),
+        fname=os.path.join(folder, "cohesive.dat"),
         #delimiter=" ",
         skiprows=1
     )
@@ -17,7 +17,7 @@ def plot(data, label):
 
     plt.plot(data[:, 0], data[:, 1], label=label)
     plt.ylabel("Energy / eV")
-    plt.xlabel("Lattice Parameter / Angstrom")
+    plt.xlabel("Volume Per Atom / Angstrom")
     
 
 def main():
@@ -29,8 +29,9 @@ def main():
     ]:
     
         plot(fetch_data(folder), folder)
+
     plt.legend()
-    plt.savefig("EnergiesPhases.png")
+    plt.savefig("EnergiesCohesivePhases.png")
     plt.show()
 
 if __name__ == '__main__':

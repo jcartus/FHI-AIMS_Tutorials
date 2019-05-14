@@ -11,7 +11,7 @@ os.system("source ../../../Session_1/export_aims_metadata.sh")
 os.system("echo $fhi_aims")
 
 # Enter your calculated value for the minimal lattice constant 
-aMin = 5.1
+aMin = 4.1
 # Enter your calculated value for the maximal lattice constant
 aMax = 5.7
 # Enter a value for the stepwidth

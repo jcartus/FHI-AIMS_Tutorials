@@ -13,7 +13,7 @@ os.system("echo $fhi_aims")
 # Enter your calculated value for the minimal lattice constant 
 aMin = 5.1
 # Enter your calculated value for the maximal lattice constant
-aMax = 5.7
+aMax = 6.7
 # Enter a value for the stepwidth
 step = 0.1
 # Number of calculations

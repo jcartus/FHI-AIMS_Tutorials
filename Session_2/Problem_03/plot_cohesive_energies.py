@@ -16,8 +16,8 @@ def fetch_data(folder):
 def plot(data, label):
 
     plt.plot(data[:, 0], data[:, 1], label=label)
-    plt.ylabel("Energy / eV")
-    plt.xlabel("Volume Per Atom / Angstrom")
+    plt.ylabel("Cohesive Energy / eV")
+    plt.xlabel("Volume Per Atom / Angstrom^3")
     
 
 def main():

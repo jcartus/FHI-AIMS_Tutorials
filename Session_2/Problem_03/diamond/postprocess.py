@@ -5,7 +5,7 @@ import numpy as np
 # Minimal lattice constant in A (from run script)
 aMin = 5.1
 # Maximal lattice constant in A (from run script)
-aMax = 5.7
+aMax = 6.7
 # Sampling density in A (from run script)
 step = 0.1
 #Number of basis atoms

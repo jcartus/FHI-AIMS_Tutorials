@@ -3,7 +3,7 @@ import os
 import numpy as np
 
 # Minimal lattice constant in A (from run script)
-aMin = 5.1
+aMin = 4.1
 # Maximal lattice constant in A (from run script)
 aMax = 5.7
 # Sampling density in A (from run script)
